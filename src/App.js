@@ -16,7 +16,7 @@ function App() {
 
 function MyButton() {
   return (
-    <button>Click me</button>
+    <button>This also works</button>
   )
 }
 
