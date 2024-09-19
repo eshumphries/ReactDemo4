@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="Font">
+        <div className="Size">
           <h1>This works</h1>
           <MyButton/>
         </div>
