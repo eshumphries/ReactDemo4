@@ -5,9 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div>
-          <h1>This works</h1>
+          <h1 className="Border">This works</h1>
           <MyButton/>
         </div>
       </header>
