@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <h1 className="Size">This works</h1>
+          <h1>This works</h1>
           <MyButton/>
         </div>
       </header>
@@ -16,7 +16,7 @@ function App() {
 
 function MyButton() {
   return (
-    <button>This also works</button>
+    <button onClick={user.name}>This also works</button>
   )
 }
 
