@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <div>
           <h1>This works</h1>
+          <Profile/>
           <MyButton/>
         </div>
       </header>
@@ -16,8 +17,25 @@ function App() {
 
 function MyButton() {
   return (
-    <button onClick={postMessage("Does this work?")}>This also works</button>
+    <button>Does this work?</button>
   )
 }
 
-export default App;
+const user = {
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://image.tmdb.org/t/p/original/qH15pDp99SXcMIuGFV7fU1x4Wqt.jpg',
+  imageSize: 90,
+};
+
+export default function Profile() {
+  return (
+    <>
+      <h1>{user.name}</h1>
+      <img className="avatar" src={user.imageUrl} alt={'Photo of ' + user.name} style={{
+        width: user.imageSize,
+        height: user.imageSize
+      }}
+      />
+    </>
+  );
+}
