@@ -16,7 +16,7 @@ function App() {
 
 function MyButton() {
   return (
-    <button onClick={user.name}>This also works</button>
+    <button onClick={postMessage("Does this work?")}>This also works</button>
   )
 }
 
