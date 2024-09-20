@@ -14,3 +14,5 @@ function ButtonComponent() {
         </div>
     );
 }
+
+export default ButtonComponent;
