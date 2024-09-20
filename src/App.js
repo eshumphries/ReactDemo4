@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <div>
           <h1>This works</h1>
-          <Profile/>
+          {/* <Profile/> */}
           <MyButton/>
         </div>
       </header>
